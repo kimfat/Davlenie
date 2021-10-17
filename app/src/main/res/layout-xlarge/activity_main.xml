@@ -49,7 +49,45 @@
         android:text="     День вашего рождения: "
         android:textColor="@color/black"
         android:textSize="30sp" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        >
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="160sp"
+            android:layout_height="40sp"
+            android:entries='@array/feedbacktypelist' />
 
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="160sp"
+            android:layout_height="40sp"
+            android:entries="@array/month"
+            />
+
+        <Spinner
+            android:id="@+id/spinYer"
+            android:layout_width="160sp"
+            android:layout_height="40sp"
+            android:entries="@array/years"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="пол:"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+        <Spinner
+            android:id="@+id/spinSex"
+            android:layout_width="80sp"
+            android:layout_height="40sp"
+            android:entries="@array/sex"
+            />
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

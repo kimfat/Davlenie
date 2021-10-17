@@ -49,7 +49,45 @@
         android:textColor="@color/black"
         android:textSize="5sp"
         />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        >
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="28sp"
+            android:layout_height="10sp"
+            android:entries='@array/feedbacktypelist' />
 
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="14sp"
+            android:layout_height="10sp"
+            android:entries="@array/month"
+            />
+
+        <Spinner
+            android:id="@+id/spinYer"
+            android:layout_width="14sp"
+            android:layout_height="10sp"
+            android:entries="@array/years"
+            />
+        <TextView
+            android:layout_width="14sp"
+            android:layout_height="wrap_content"
+            android:text="пол:"
+            android:textColor="@color/black"
+            android:textSize="6sp" />
+        <Spinner
+            android:id="@+id/spinSex"
+            android:layout_width="wrap_content"
+            android:layout_height="10sp"
+            android:entries="@array/sex"
+            />
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,6 +113,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:text="    3.Введите пульc в положении лёжа: "
             android:textColor="@color/black"
             android:textSize="5sp" />
@@ -109,6 +148,7 @@
         >
         <TextView
             android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_height="wrap_content"
             android:text="    6.Введите пуль в положении стоя:"
             android:textColor="@color/black"
@@ -135,7 +175,7 @@
     <Button
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="30sp"
         android:text="Ввод"
         android:textSize="12sp" />
 

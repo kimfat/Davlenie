@@ -1,4 +1,163 @@
 <resources>
     <string name="app_name">Davlenie</string>
     <string name="title_activity_second">Result</string>
+    <string name='first'>1 </string>
+    <string name='second'>2</string>
+    <string name='three'>3</string>
+    <string name='four'>4</string>
+    <string name='first1'>5 </string>
+    <string name='first2'>6 </string>
+    <string name='first3'>7 </string>
+    <string name='first4'>8 </string>
+    <string name='first5'>9 </string>
+    <string name='first6'>10 </string>
+    <string name='first7'>11 </string>
+    <string name='first8'>12 </string>
+    <string name='first9'>13 </string>
+    <string name='first10'>14 </string>
+    <string name='two1'>15 </string>
+    <string name='two2'>16 </string>
+    <string name='two3'>17</string>
+    <string name='two4'>18 </string>
+    <string name='two5'>19 </string>
+    <string name='two6'>20 </string>
+    <string name='two7'>21 </string>
+    <string name='two8'>22 </string>
+    <string name='two9'>23 </string>
+    <string name='three1'>24 </string>
+    <string name='three2'>25 </string>
+    <string name='three3'>26 </string>
+    <string name='three4'>27 </string>
+    <string name='three5'>28 </string>
+    <string name='three6'>29 </string>
+    <string name='three7'>30 </string>
+    <string name='three8'>31 </string>
+    <string name='june'>Июнь </string>
+    <string name='Jule'>Июль </string>
+    <string name='aug'>Август </string>
+    <string name='sep'>Сентябрь </string>
+    <string name='oct'>Октябрь </string>
+    <string name='nov'>Ноябрь </string>
+    <string name='dec'>Декабрь </string>
+    <string name='Jan'>Январь </string>
+    <string name='Feb'>Февраль </string>
+    <string name='Mat'>Март </string>
+    <string name='Apr'>Апрель </string>
+    <string name='ma'>Май </string>
+    <string name='e'>1980 </string>
+    <string name='e1'>1981</string>
+    <string name='e2'>1982</string>
+    <string name='e3'>1983</string>
+    <string name='e4'>1984 </string>
+    <string name='e5'>1985 </string>
+    <string name='e6'>1986 </string>
+    <string name='e7'>1987 </string>
+    <string name='e8'>1988 </string>
+    <string name='e9'>1989 </string>
+    <string name='w'>1990 </string>
+    <string name='w1'>1991 </string>
+    <string name='w2'>1992 </string>
+    <string name='w3'>1993 </string>
+    <string name='w4'>1994 </string>
+    <string name='w5'>1995 </string>
+    <string name='w6'>1996</string>
+    <string name='w7'>1997 </string>
+    <string name='w8'>1998 </string>
+    <string name='w9'>1999 </string>
+    <string name='r'>2000 </string>
+    <string name='r1'>2001 </string>
+    <string name='r2'>2002 </string>
+    <string name='r3'>2003 </string>
+    <string name='r4'>2004 </string>
+    <string name='r5'>2005 </string>
+    <string name='r6'>2006 </string>
+    <string name='r7'>2007 </string>
+    <string name='r8'>2008 </string>
+    <string name='man'>муж </string>
+    <string name='woman'>жен </string>
+
+    <string-array name='feedbacktypelist'>
+        <item>@string/first</item>
+        <item>@string/second</item>
+        <item>@string/three</item>
+        <item>@string/four</item>
+        <item>@string/first1</item>
+        <item>@string/first2</item>
+        <item>@string/first3</item>
+        <item>@string/first4</item>
+        <item>@string/first5</item>
+        <item>@string/first6</item>
+        <item>@string/first7</item>
+        <item>@string/first8</item>
+        <item>@string/first9</item>
+        <item>@string/first10</item>
+        <item>@string/two1</item>
+        <item>@string/two2</item>
+        <item>@string/two3</item>
+        <item>@string/two4</item>
+        <item>@string/two5</item>
+        <item>@string/two6</item>
+        <item>@string/two7</item>
+        <item>@string/two8</item>
+        <item>@string/two9</item>
+        <item>@string/three1</item>
+        <item>@string/three2</item>
+        <item>@string/three3</item>
+        <item>@string/three4</item>
+        <item>@string/three5</item>
+        <item>@string/three6</item>
+        <item>@string/three7</item>
+        <item>@string/three8</item>
+    </string-array>
+    <string-array name="month">
+        <item>@string/Jan</item>
+        <item>@string/Feb</item>
+        <item>@string/Mat</item>
+        <item>@string/Apr</item>
+        <item>@string/ma</item>
+        <item>@string/june</item>
+        <item>@string/Jule</item>
+        <item>@string/aug</item>
+        <item>@string/sep</item>
+        <item>@string/oct</item>
+        <item>@string/nov</item>
+        <item>@string/dec</item>
+
+    </string-array>
+    <string-array name='years'>
+        <item>@string/e</item>
+        <item>@string/e1</item>
+        <item>@string/e2</item>
+        <item>@string/e3</item>
+        <item>@string/e4</item>
+        <item>@string/e5</item>
+        <item>@string/e6</item>
+        <item>@string/e7</item>
+        <item>@string/e8</item>
+        <item>@string/e9</item>
+        <item>@string/w</item>
+        <item>@string/w1</item>
+        <item>@string/w2</item>
+        <item>@string/w3</item>
+        <item>@string/w4</item>
+        <item>@string/w5</item>
+        <item>@string/w6</item>
+        <item>@string/w7</item>
+        <item>@string/w8</item>
+        <item>@string/w9</item>
+        <item>@string/r</item>
+        <item>@string/r1</item>
+        <item>@string/r2</item>
+        <item>@string/r3</item>
+        <item>@string/r4</item>
+        <item>@string/r5</item>
+        <item>@string/r6</item>
+        <item>@string/r7</item>
+        <item>@string/r8</item>
+    </string-array>
+
+    <string-array name='sex'>
+        <item>@string/man</item>
+        <item>@string/woman</item>
+    </string-array>
 </resources>
