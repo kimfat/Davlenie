@@ -58,20 +58,20 @@
         >
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="wrap_content"
+            android:layout_width="40sp"
             android:layout_height="wrap_content"
             android:entries='@array/feedbacktypelist' />
 
         <Spinner
             android:id="@+id/spin"
-            android:layout_width="wrap_content"
+            android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:entries="@array/month"
             />
 
         <Spinner
             android:id="@+id/spinYer"
-            android:layout_width="wrap_content"
+            android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:entries="@array/years"
             />
@@ -83,7 +83,7 @@
             android:textSize="14sp" />
         <Spinner
             android:id="@+id/spinSex"
-            android:layout_width="wrap_content"
+            android:layout_width="60sp"
             android:layout_height="wrap_content"
             android:entries="@array/sex"
             />
