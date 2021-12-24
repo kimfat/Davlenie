@@ -8,15 +8,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.NumberPicker;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -74,9 +66,9 @@ public class MainActivity extends AppCompatActivity {
                                 params.put("m2", m2.getText().toString());
                                 params.put("m1", m1.getText().toString());
                                 params.put("sex", "1");
-                                params.put("year", "1990");
-                                params.put("month", "12");
-                                params.put("day", "15");
+                                params.put("year", "2000");
+                                params.put("month", "11");
+                                params.put("day", "27");
                                 return params;
                             }
 

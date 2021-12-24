@@ -18,7 +18,5 @@ public class SecondActivity extends AppCompatActivity {
         String ans = intent.getStringExtra("lname");;
         String renam = ans.replaceAll("\\<.*?\\>", "");
         tvView.setText(renam.trim());
-        Toast toast = Toast.makeText(getApplicationContext(), ans, Toast.LENGTH_SHORT);
-        toast.show();
     }
 }
