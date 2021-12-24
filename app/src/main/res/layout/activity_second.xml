@@ -21,7 +21,6 @@
             android:textSize="20dp" />
 
         <TextView
-            android:id="@+id/mTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Не забывайте о регулярном профессиональном медицинском осмотре!"
@@ -52,6 +51,7 @@
                 android:src="@drawable/smile" />
 
             <TextView
+                android:id="@+id/mTXt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Введённые значения соответствуют отсутствию переутомления!"
